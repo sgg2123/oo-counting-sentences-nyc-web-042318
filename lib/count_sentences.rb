@@ -8,7 +8,6 @@ class String
     else 
       false
     end
-    
   end
 
   def question?
@@ -17,7 +16,6 @@ class String
     else 
       false
     end
-
   end
 
   def exclamation?
@@ -26,27 +24,21 @@ class String
     else 
       false
     end
-
   end
 
-
-# count = 0
-# arr.each do |character|
-#   if character == "."
-#     count +=1
-#   end
-#   if character == "?"
-#     count +=1
-#   end
-#   if character == "!"
-#     count +=1
-#   end
-# end
-# count
   def count_sentences
     arr = self.split("")
-    
-    
-
+    count = 0
+    arr.each do |character|
+    if character == "."
+      count +=1
+    end
+    if character == "?"
+      count +=1
+    end
+    if character == "!"
+      count +=1
+    end
+    count
   end
 end
