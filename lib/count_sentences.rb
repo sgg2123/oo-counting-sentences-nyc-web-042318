@@ -30,7 +30,7 @@ class String
   end
 
   def count_sentences
-    ALL << "sentence"
+    if self
 
   end
 end
