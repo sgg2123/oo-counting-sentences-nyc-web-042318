@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    arr = self.split("")
+    arr = self.squeeze.split("")
     count = 0
     arr.each do |character|
       if character == "." #&& 
