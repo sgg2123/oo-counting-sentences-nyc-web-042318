@@ -1,10 +1,8 @@
 require 'pry'
 
 class String
-  
-  ALL = []
-  
-  def sentence?
+
+ def sentence?
     if self[-1] == "."
       true
     else 
