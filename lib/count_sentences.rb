@@ -32,7 +32,7 @@ class String
   end
 
   def count_sentences
-    ALL 
+    ALL << "sentence"
 
   end
 end
