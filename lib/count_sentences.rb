@@ -39,7 +39,7 @@ class String
       if character == "!"
         count +=1
       end
-      count
     end
+    count
   end
 end
