@@ -29,6 +29,23 @@ class String
 
   end
 
+
+# var = "Hi, my name is Sophie...?!"
+# arr = var.split("")
+
+# count = 0
+# arr.each do |character|
+#   if character == "."
+#     count +=1
+#   end
+#   if character == "?"
+#     count +=1
+#   end
+#   if character == "!"
+#     count +=1
+#   end
+# end
+# count
   def count_sentences
     self.map do |character|
 
