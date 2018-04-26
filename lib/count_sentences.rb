@@ -30,7 +30,7 @@ class String
   end
 
   def count_sentences
-    if self
+    if self.include?
 
   end
 end
