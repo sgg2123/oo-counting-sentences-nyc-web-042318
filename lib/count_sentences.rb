@@ -2,6 +2,8 @@ require 'pry'
 
 class String
   
+  ALL = []
+  
   def sentence?
     if self[-1] == "."
       true
@@ -30,7 +32,7 @@ class String
   end
 
   def count_sentences
-    
+    ALL 
 
   end
 end
