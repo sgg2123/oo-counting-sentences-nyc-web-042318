@@ -30,15 +30,15 @@ class String
     arr = self.split("")
     count = 0
     arr.each do |character|
-    if character == "."
-      count +=1
+      if character == "."
+        count +=1
+      end
+      if character == "?"
+        count +=1
+      end
+      if character == "!"
+        count +=1
+      end
+      count
     end
-    if character == "?"
-      count +=1
-    end
-    if character == "!"
-      count +=1
-    end
-    count
-  end
 end
