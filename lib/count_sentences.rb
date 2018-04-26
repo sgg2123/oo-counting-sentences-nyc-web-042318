@@ -30,7 +30,7 @@ class String
     arr = self.split("")
     count = 0
     arr.each do |character|
-      if character == "."
+      if character == "." #&& 
         count +=1
       end
       if character == "?"
